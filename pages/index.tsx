@@ -4,6 +4,7 @@ import About from '../components/About'
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import Skills from '../components/Skills'
+import Projects from '../components/Projects'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Main />
       <About />
       <Skills />
+      <Projects />
     </div>
   )
 }
