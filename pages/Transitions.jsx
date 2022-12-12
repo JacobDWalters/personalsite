@@ -36,7 +36,7 @@ const Transitions = () => {
           <a
             href="https://galvanize-transitions.onrender.com/"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Deployed Site</button>
           </a>
@@ -44,7 +44,7 @@ const Transitions = () => {
           <a
             href="https://github.com/JacobDWalters/hacking-transitions"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4">Code</button>
           </a>

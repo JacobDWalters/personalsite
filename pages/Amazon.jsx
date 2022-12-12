@@ -36,14 +36,14 @@ const Amazon = () => {
           <a
             href="https://webheads-primo-w6n8.onrender.com"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Deployed Site</button>
           </a>
           <a
             href="https://github.com/fec-galvanize/Amazon-Clone-1/tree/Jake-Product-Details"
             target="_blank"
-            rel="noopener"
+            rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
