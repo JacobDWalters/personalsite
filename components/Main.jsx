@@ -20,7 +20,7 @@ const Main = () => {
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             The world is moving more towards technology and people are
             increasingly on the web. With that in mind, I deliver software with
-            vast functionallity, high quality user experience, elligant design
+            vast functionallity, high-quality user experience, elegant design
             and fast and secure data storage.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">

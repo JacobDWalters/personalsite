@@ -17,7 +17,7 @@ const About = () => {
           <p className="py-2 text-gray-600">
             I have a passion for creating things which has led me to sharpening
             my skills and delivering software for the past year. I am someone
-            who takes the upmost pride in my work and will deliver high quality
+            who takes the upmost pride in my work and will deliver high-quality
             products. I love working with others to solve problems and identify
             solutions. I will always communicate and verify before leaving
             anyone in the dark and I strive to always place business value
