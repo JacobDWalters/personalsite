@@ -5,6 +5,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useRouter } from "next/router";
+import logo from "../public/assets/jwLogo.png";
 
 const Nav = () => {
   const [nav, setNav] = useState(false);
@@ -54,12 +55,7 @@ const Nav = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/../public/assets/jw-logo.png"
-            alt="jw_logo"
-            width="75"
-            height="75"
-          />
+          <Image src={logo} alt="jw_logo" width="75" height="75" />
         </Link>
 
         <div>
@@ -105,12 +101,7 @@ const Nav = () => {
               <div>
                 <div className="flex w-full items-center justify-between">
                   <Link href="/">
-                    <Image
-                      src="/../public/assets/jw-logo.png"
-                      width="70"
-                      height="70"
-                      alt="navLogo"
-                    />
+                    <Image src={logo} width="70" height="70" alt="navLogo" />
                   </Link>
                   <div
                     onClick={handleNav}

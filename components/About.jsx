@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import profilePic from "../public/assets/profilePic.png";
 
 const About = () => {
   return (
@@ -33,7 +34,7 @@ const About = () => {
         <div className="w-full h-auto m-auto shadow-xl bg-[#b5bfc1] shadow-gray-400 rounded-3xl flext items-center justify-center p-4 hover:scale-110 ease-in duration-300">
           <Image
             className="w-full max-w-400 p-2 rounded-3xl "
-            src="/../public/assets/profile-pic.png"
+            src={profilePic}
             width="200"
             height="400"
             alt="Pic of Me"

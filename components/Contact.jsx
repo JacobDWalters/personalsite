@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiChevronDoubleUp } from "react-icons/hi";
+import contact from "../public/assets/contact.png";
 
 const Contact = () => {
   return (
@@ -21,7 +22,7 @@ const Contact = () => {
               <div>
                 <Image
                   className="w-[100%] rounded-xl"
-                  src="/../public/assets/contact.png"
+                  src={contact}
                   alt="/"
                   width="800"
                   height="300"
