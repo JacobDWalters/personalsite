@@ -112,7 +112,7 @@ const Nav = () => {
                 </div>
                 <div className="border-b border-gray-300 my-4">
                   <p className="w-[85%] md:w-[90%] py-4">
-                    Catchy line to go here later when I'm less dumb
+                    Helping People and Buisnesses Grow
                   </p>
                 </div>
               </div>
@@ -149,15 +149,30 @@ const Nav = () => {
                     Let's Connect
                   </p>
                   <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                      <FaLinkedinIn />
-                    </div>
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                      <FaGithub />
-                    </div>
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                      <AiOutlineMail />
-                    </div>
+                    <a
+                      href="https://www.linkedin.com/in/jacob-d-walters/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                        <FaLinkedinIn />
+                      </div>
+                    </a>
+                    <a
+                      href="https://github.com/JacobDWalters"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                        <FaGithub />
+                      </div>
+                    </a>
+                    <a href="mailto:jacob.d.walters22@gmail.com">
+                      <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+                        <AiOutlineMail />
+                      </div>
+                    </a>
+
                     <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                       <BsFillPersonLinesFill />
                     </div>

@@ -11,32 +11,45 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className="py-2 text-gray-600">I am not your normal developer</p>
           <p className="py-2 text-gray-600">
-            this is a long blah blah about me and all the great things I have
-            done and plan on doing and I hope to keep doing a;sdljkfs
-            a;lsdkfjas;ldk a;lsdkf a;slkd a;dslkfj a;eiofje asd;lkfjp a;oiwj
-            oiejl hello my name is jake and do ;asldkfja;lsdkfjasl;sdkfj a;lf
-            ;aoiejre a;oidsjfen ;oiejewn pwoejnlas; ;alsdkfjaeijoweij ;alsdkj
-            a;l poiej pwjenb p;aow8ei oaipshd p;iohje
-            a;sdlkfjefjawoeifjaoiseifsafsa a;sdlkfj ;oie,s ;alkseoij ;aslijewoih
+            Life Long Learner | US Army Veteran | Local in Grand Rapids, MI
           </p>
           <p className="py-2 text-gray-600">
-            another paragraph about me and the things that I like and the things
-            that I have done and want to keep doing and all of that great stuff
-            and things blah a;lfkjg a;sdlkfj p aowie fhwelknj oeisawweoi e
-            paoewiawejp eopiahjjksh ah
+            I have a passion for creating things which has led me to sharpening
+            my skills and delivering software for the past year. I am someone
+            who takes the upmost pride in my work and will deliver high quality
+            products. I love working with others to solve problems and identify
+            solutions. I will always overcommunicate before leaving you in the
+            dark and I strive to always place business value first!
           </p>
           <p className="py-2 text-gray-600">
-            Check out some of my lates Projects!
+            I have a non-traditional path to software development to say the
+            least. I was born and raised in a small town outside of Grand
+            Rapids, MI playing sports and working construction through my
+            childhood and into becoming a young adult. I attended college at
+            Central Michigan University studying Biology and entering the ROTC
+            program. I also enlisted in the Michigan Army National Guard as I
+            began college to help me afford it. I quickly grew to realize that I
+            had a passion for the challenges that the Army presented. Following
+            graduation, I commissioned as an Active Duty Officer in the US Army
+            and spent my next 4 years working on and leading teams of some of
+            the greatest men and women in the Country. Leaving the military was
+            hard but I knew that it was best for our family, so I decided to
+            push myself towards a new challenge and find another passion. This
+            led me to software development and getting the chance to work with
+            people like you to bring ideas to life, connect individuals and
+            businesses to opportunities, and grow together.
+          </p>
+          <p className="py-2 text-gray-600">
+            Check out some of my latest Projects!
           </p>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl bg-[#b5bfc1] shadow-gray-400 rounded-3xl flext items-center justify-center p-4 hover:scale-110 ease-in duration-300">
+        <div className="w-full h-auto m-auto shadow-xl bg-[#b5bfc1] shadow-gray-400 rounded-3xl flext items-center justify-center p-4">
           <Image
             className="w-full max-w-400 p-2 rounded-3xl "
             src={profilePic}
-            width="200"
-            height="400"
+            width="800"
+            height="1600"
             alt="Pic of Me"
           ></Image>
         </div>

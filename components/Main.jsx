@@ -9,28 +9,45 @@ const Main = () => {
       <div className="max-w-[1240px w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            Some Cool Saying when I am less Dumb
+            Helping People and Buisnesses Grow
           </p>
           <h1 className="py-4 text-gray-700">
             Hi, I'm
             <span className="text-[#5b7379]"> Jake</span>
           </h1>
-          <h1 className="py-2 text-gray-700">And I Suck At This A Lot!</h1>
+          <h1 className="py-2 text-gray-700">What can I do for you?</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            This will be my summary of who I am and what I do and why you should
-            want me to want you, and need me to need you, and love me to love
-            you and all that good and great stuff and give me a job
+            The world is moving ever twoard technology and people are
+            increasingly on the web. With that in mind I deliver software with
+            vast functionallity, high quality user experiance, ellegant design
+            and fast and secure data storage.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
+            <a
+              href="https://www.linkedin.com/in/jacob-d-walters/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaLinkedinIn />
+              </div>
+            </a>
+
+            <a
+              href="https://github.com/JacobDWalters"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub />
+              </div>
+            </a>
+            <a href="mailto:jacob.d.walters22@gmail.com">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMail />
+              </div>
+            </a>
+
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <BsFillPersonLinesFill />
             </div>
