@@ -6,8 +6,14 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiChevronDoubleUp } from "react-icons/hi";
 import contact from "../public/assets/contact.png";
+import { useForm } from "react-hook-form";
 
 const Contact = () => {
+  // const { register, handleSubmit, errors, reset } = useForm();
+  // const onSubmitForm = (values) => {
+  //   console.log(values);
+  // };
+
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -76,6 +82,12 @@ const Contact = () => {
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
+                      // ref={register({
+                      //   required: {
+                      //     vlaue: true,
+                      //     message: "You must enter your name",
+                      //   },
+                      // })}
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                     />
@@ -85,6 +97,7 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
+                      // ref={register}
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                     />
@@ -94,6 +107,12 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
+                    // ref={register({
+                    //   required: {
+                    //     vlaue: true,
+                    //     message: "You must enter your email address",
+                    //   },
+                    // })}
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
                   />
@@ -102,6 +121,12 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
+                    // ref={register({
+                    //   required: {
+                    //     vlaue: true,
+                    //     message: "You must enter a message",
+                    //   },
+                    // })}
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
                   />
@@ -110,6 +135,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
+                    // ref={register}
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
                   ></textarea>
