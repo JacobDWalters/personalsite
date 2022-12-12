@@ -167,7 +167,7 @@ const Nav = () => {
                         <FaGithub />
                       </div>
                     </a>
-                    <a href="mailto:jacob.d.walters22@gmail.com">
+                    <a href="jacob.d.walters22@gmail.com">
                       <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                         <AiOutlineMail />
                       </div>

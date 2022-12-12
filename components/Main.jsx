@@ -2,6 +2,7 @@ import React from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import ReactModal from "react-modal";
 
 const Main = () => {
   return (
@@ -28,7 +29,7 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="bg-[#b5bfc1] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaLinkedinIn />
               </div>
             </a>
@@ -38,19 +39,34 @@ const Main = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className="bg-[#b5bfc1] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <FaGithub />
               </div>
             </a>
             <a href="mailto:jacob.d.walters22@gmail.com">
-              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <div className=" bg-[#b5bfc1] rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <AiOutlineMail />
               </div>
             </a>
 
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <BsFillPersonLinesFill />
-            </div>
+              <ReactModal
+                className="h-300 w-200
+                 flex justify-center text-center bg-slate-600"
+                isOpen={true}
+                // onAfterOpen={handleModal}
+                // onAfterClose={handleModal}
+                closeTimeoutMS={500}
+                style={{
+                  overlay: {},
+                  content: {},
+                }}
+              >
+                <p>Phone Number: (616) 328-1653</p>
+                <p>Email Address: jacob.d.waltres22@gmail.com</p>
+              </ReactModal>
+            </div> */}
           </div>
         </div>
       </div>
