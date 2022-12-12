@@ -19,26 +19,28 @@ const About = () => {
             my skills and delivering software for the past year. I am someone
             who takes the upmost pride in my work and will deliver high quality
             products. I love working with others to solve problems and identify
-            solutions. I will always overcommunicate before leaving you in the
-            dark and I strive to always place business value first!
+            solutions. I will always communicate and verify before leaving
+            anyone in the dark and I strive to always place business value
+            first!
           </p>
           <p className="py-2 text-gray-600">
             I have a non-traditional path to software development to say the
             least. I was born and raised in a small town outside of Grand
             Rapids, MI playing sports and working construction through my
             childhood and into becoming a young adult. I attended college at
-            Central Michigan University studying Biology and entering the ROTC
-            program. I also enlisted in the Michigan Army National Guard as I
-            began college to help me afford it. I quickly grew to realize that I
-            had a passion for the challenges that the Army presented. Following
+            Central Michigan University studying biology and entering the ROTC
+            program. I also enlisted in the Michigan Army National Guard as an
+            infantryman at 18 years old. I quickly grew to realize that I had a
+            passion for the challenges that the Army presented. Following
             graduation, I commissioned as an Active Duty Officer in the US Army
             and spent my next 4 years working on and leading teams of some of
-            the greatest men and women in the Country. Leaving the military was
-            hard but I knew that it was best for our family, so I decided to
-            push myself towards a new challenge and find another passion. This
-            led me to software development and getting the chance to work with
-            people like you to bring ideas to life, connect individuals and
-            businesses to opportunities, and grow together.
+            the greatest men and women in the country. Although leaving the
+            military was bittersweet, I knew that it was time to move on to
+            something different. I decided to push myself towards a new
+            challenge and find another passion, this led me to software
+            development and getting the chance to work with people like you to
+            bring ideas to life, connect individuals and businesses to
+            opportunities, and grow together.
           </p>
           <p className="py-2 text-gray-600">
             Check out some of my latest Projects!
