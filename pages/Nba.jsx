@@ -33,12 +33,17 @@ const Nba = () => {
             will becasue you are in fact a huge idiot and do not know what in
             fact you are doing.
           </p>
-          <a href="https://merciful-scissors.surge.sh/" target="_blank">
+          <a
+            href="https://merciful-scissors.surge.sh/"
+            target="_blank"
+            rel="noopener"
+          >
             <button className="px-8 py-2 mt-4 mr-8">Deployed Site</button>
           </a>
           <a
             href="https://github.com/JacobDWalters/front-end-project"
             target="_blank"
+            rel="noopener"
           >
             <button className="px-8 py-2 mt-4">Code</button>
           </a>
