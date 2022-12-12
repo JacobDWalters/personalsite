@@ -2,9 +2,9 @@ import Main from '../components/Main'
 import Head from 'next/head'
 import About from '../components/About'
 import Image from 'next/image'
-import Nav from '../components/Nav'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 
 export default function Home() {
   return (
@@ -15,11 +15,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Nav />
       <Main />
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   )
 }

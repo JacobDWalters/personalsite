@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <div className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240 m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="text-xl tracking-widest text-[#5b7379] uppercase">
@@ -34,7 +34,7 @@ const About = () => {
         </div>
         <div className="w-full h-auto m-auto shadow-xl bg-[#b5bfc1] shadow-gray-400 rounded-3xl flext items-center justify-center p-4 hover:scale-110 ease-in duration-300">
           <Image
-            className="w-full max-w-400 p-2 rounded-3xl bg-[#5b7379]"
+            className="w-full max-w-400 p-2 rounded-3xl "
             src="/../public/assets/profile-pic.png"
             width="200"
             height="400"
